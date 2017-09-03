@@ -379,7 +379,8 @@
     margin-bottom: 20px;
 }
 .absoutus img{
-	margin: 90px auto 10px;
+    margin: 60px 0 10px;
+    width:100%;
 }
 /* 联系我们 */
 .contactus{
@@ -1106,7 +1107,7 @@
 .why-guide .left{
 	width: 57%;
 	height: 450px;
-	background: url(../images/why.png);
+	background: url(../images/why2.jpeg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -1183,7 +1184,7 @@
 .join-wanzi .right{
 	width: 57%;
 	height: 450px;
-	background: url(../images/why1.png);
+	background: url(../images/why3.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 50%;
