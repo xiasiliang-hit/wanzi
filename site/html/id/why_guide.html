@@ -117,7 +117,7 @@
             <div class="left main-bg">
                 <p class="text-color5 font-size6">全球60多个国家600多座城市的3000多名小伙伴都已经在走走旅游接待来自全球的旅行者们。</p>
                 <p class="text-color5 font-size6">如果您对当地足够熟悉，愿意带旅行者深入体验当地风土人情，那就快来加入我们吧！</p>
-                <a id="apply" class="text-color5 font-size6 text-center" onclick="oncli()" >立即成为向导</a><!--href="javascript:;"-->
+                <a href="javascript:;" id="apply" class="text-color5 font-size6 text-center">立即成为向导</a>
             </div>
             <div class="right"></div>
         </div>
@@ -152,16 +152,18 @@
 	    <script>
     $(document).ready(function(){
 		$('#apply').click(function(){
-				$(this).loading();
-				$.getJSON('/site/applysStep',{'status':'json'},function(result){
-					$(this).unload();
-					if(result.code==1000){
-						window.location.href='../../../index.html';
-					}else{
-						$('.login-modal').modal('show');
-						resterLogin(true);
-					}
-				});
+//				$(this).loading();
+//				$.getJSON('/site/applysStep',{'status':'json'},function(result){
+//					$(this).unload();
+//					if(result.code==1000){
+//						window.location.href='../../../index.html';
+//					}else{
+//						$('.login-modal').modal('show');
+//						resterLogin(true);
+//					}
+//				});
+			alert("您好，请按照以下格式发送信息到邮箱：姓名，性别，年龄，在荷工作，公司 （或者学历，专业），附件护照首页（命名为passport），一张旅行照（命名为profile）发送至 邮箱 guider@guanhaitingtao.com.cn");
+
 		})
         $('.video-box i').on('click',function(){
             $('.video_main').get(0).play();
@@ -206,8 +208,7 @@
                             <div class="col-sm-4">
                                 <h5>公司信息<i class="arrow-btn"></i></h5>
                                 <div class="hidden-section">
-                                    <p><a href="../../html/id/about_us.html">关于我们</a></p>
-				    <p><a href="../../html/id/join_us.html">加入我们</a></p>
+                                    <p><a href="../../html/id/about_us.html">关于我们</a></p><a href="../../html/id/join_us.html">加入我们</a></p>
                                     <p><a href="contact_us.html">联系我们</a></p>
                                     <p><a href="media.html">媒体报道</a></p>
                                     <p><a href="map.html">网站地图</a></p>
@@ -248,20 +249,7 @@
         </div>
         <!-- 底部 -->
 	<script src="https://qiyukf.com/script/24c8bd3fd15d1272dc707fb2944bbc27.js" defer async></script>
-	<script >
-	  function oncli()
-{
-	  alert("您好，
-
-请按照以下格式发送信息到邮箱：
-
-姓名，性别，年龄，在荷工作，公司 （或者学历，专业），附件护照首页（命名为passport），一张旅行照（命名为profile）
-
-发送至 邮箱 guider@guanhaitingtao.com.cn");
-}
-
-</script>
-<script>
+    <script>
 		var timer4 = null;timer1=null, avatar = '',name = '';
 
 			//区域搜索
