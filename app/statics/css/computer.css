@@ -1107,7 +1107,7 @@
 .why-guide .left{
 	width: 57%;
 	height: 450px;
-	background: url(../images/why2.jpeg);
+	background: url(../images/why2.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -2141,7 +2141,7 @@
 	.why-guide .left-m{
 		width: 100%;
 		height: 4.1rem;
-		background: url(../images/why2-m.jpeg);
+		background: url(../images/why2-m.jpg);
 		-webkit-background-size: cover;
 		background-size: cover;
 		background-position: 50% 50%;
