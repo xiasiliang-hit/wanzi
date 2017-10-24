@@ -3,7 +3,7 @@
 	width: 100%;
 	height: 400px;
 /*	background: url(../images/list-bg.jpg);*/
-background: url(https://www.jnto.go.jp/eng/wp-content/uploads/2016/06/For-those-travelling-to-Kyoto-for-the-first-time.jpg);
+	background: url(https://www.jnto.go.jp/eng/wp-content/uploads/2016/06/For-those-travelling-to-Kyoto-for-the-first-time.jpg);
 	background-position: 50% 50%;
     background-size: cover;
     position: relative;
