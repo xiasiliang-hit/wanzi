@@ -185,10 +185,10 @@ ul,ol{
 	display: inline-block;
 	background: url(../images/spring.png) no-repeat -232px 0;
 }
-.help-center a, .account-center a{
-	padding-right: 10px!important;
+.help-center a{
+	padding-right: 40px!important;
 }
-.help-center i,.quit-login span i, .account-center i{
+.help-center i,.quit-login span i{
 	width: 7px;
 	height: 4px;
 	position: absolute;
@@ -197,7 +197,7 @@ ul,ol{
 	display: inline-block;
 	background: url(../images/spring.png) no-repeat -248px -29px;
 }
-.help-center ul, .account-center ul{
+.help-center ul{
 	width: 248px;
 	background-color: #fff;
 	border: 2px solid #efefed;
@@ -207,10 +207,10 @@ ul,ol{
 	left: -6px;
 	padding: 20px 20px 0;
 }
-.help-center ul li a, .account-center ul li a{
+.help-center ul li a{
 	padding-right: 0!important;
 }
-.help-center ul li, .account-center ul li{
+.help-center ul li{
 	margin-bottom: 20px;
 }
 .help-center ul li.arrange-travel{
