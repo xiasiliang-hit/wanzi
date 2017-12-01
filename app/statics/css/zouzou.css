@@ -285,7 +285,7 @@ b, strong{font-weight: normal;}
 .content .person_chose .tit .person_quantity .subtract{display: none;}
 .content .person_chose .tit .person_quantity div{text-align: center;line-height: 38px; width: 38px;height: 38px;border-radius: 50%;border: 1px solid #7AC4D1;float: left;margin: 0 15px;}
 .content .person_chose .tit .person_quantity div span{margin-right: 8px;}
-.foot_next_btn[type=button]{width: 100%;height: 45px;position: fixed;bottom: 0px;background-color:#7AC4D1;color: #fff;font-size: 17px;border: none;border-radius: initial;}
+.foot_next_btn[type=button]{width: 7.5rem;height: 45px;position: fixed;bottom: 0px;background-color:#7AC4D1;color: #fff;font-size: 17px;border: none;border-radius: initial;}
 
 
 /*微信支付页*/
