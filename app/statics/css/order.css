@@ -1,3 +1,13 @@
+.mask {
+	display:none;
+}
+
+#pay-qrcode{
+	position:relative;
+	height:128px;
+	width:128px;
+	left:20%;
+}
 
 html{
     font-size: 100px; height: 100%;
