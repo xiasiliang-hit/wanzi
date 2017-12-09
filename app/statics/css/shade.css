@@ -1,6 +1,6 @@
 .shade{
 	//	visibility: hidden;
-    display:inline;
+    display:none;
 
 	position: fixed;
 	background-color: grey;
