@@ -6,6 +6,20 @@
 	height:40px;
 }
 
+#img-close{
+	position:relative;
+	left:345px;
+	top:-50px;
+	width:30px;
+	height:30px;
+}
+
+/*
+.div-close{
+	border-radius:20px;
+	background-color:white;
+}
+*/
 .mid{
 	background:white; margin:20px 20px 20px 20px;
 	padding: 0 40px 20px 40px;
